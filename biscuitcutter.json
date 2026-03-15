@@ -5,7 +5,7 @@
   "author_name": "Your Name",
   "author_email": "your.email@example.com",
   "github_username": "your-username",
-  "node_version": ["20", "18", "22"],
+  "node_version": ["20", "18", "24"],
   "include_branding": ["yes", "no"],
   "branding_icon": "zap",
   "branding_color": ["blue", "green", "orange", "purple", "yellow", "gray-dark", "white"]
