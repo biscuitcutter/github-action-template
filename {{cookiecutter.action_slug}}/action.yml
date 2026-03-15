@@ -1,0 +1,22 @@
+name: '{{ cookiecutter.action_name }}'
+description: '{{ cookiecutter.action_description }}'
+author: '{{ cookiecutter.author_name }}'
+
+inputs:
+  example-input:
+    description: 'An example input parameter'
+    required: false
+    default: 'default-value'
+
+outputs:
+  example-output:
+    description: 'An example output value'
+
+runs:
+  using: 'node{{ cookiecutter.node_version }}'
+  main: 'dist/index.js'
+{% if cookiecutter.include_branding == 'yes' %}
+branding:
+  icon: '{{ cookiecutter.branding_icon }}'
+  color: '{{ cookiecutter.branding_color }}'
+{% endif %}

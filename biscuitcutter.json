@@ -1,0 +1,12 @@
+{
+  "action_name": "My GitHub Action",
+  "action_slug": "{{ cookiecutter.action_name | lower | replace(' ', '-') }}",
+  "action_description": "A custom GitHub Action",
+  "author_name": "Your Name",
+  "author_email": "your.email@example.com",
+  "github_username": "your-username",
+  "node_version": ["20", "18", "22"],
+  "include_branding": ["yes", "no"],
+  "branding_icon": "zap",
+  "branding_color": ["blue", "green", "orange", "purple", "yellow", "gray-dark", "white"]
+}
